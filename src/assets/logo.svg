@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="123" height="102" viewBox="0 0 123 102" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 61.94 51.45)"  >
+<linearGradient id="SVGID_475" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="0" y1="50.949999999999996" x2="122.88000000000001" y2="50.949999999999996">
+<stop offset="0%" style="stop-color:rgba(0, 0, 0, 1);"/>
+<stop offset="0%" style="stop-color:rgba(243, 243, 243, 1);"/>
+<stop offset="100%" style="stop-color:rgba(155, 155, 155, 1);"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_475); fill-rule: evenodd; opacity: 1;"  transform=" translate(-61.44, -50.95)" d="M 3.34 0 h 116.2 c 1.84 0 3.34 1.5 3.34 3.34 v 76.98 c 0 1.84 -1.5 3.34 -3.34 3.34 H 3.34 C 1.5 83.66 0 82.16 0 80.32 V 3.34 C 0 1.5 1.5 0 3.34 0 L 3.34 0 L 3.34 0 z M 12.57 11.68 h 9.82 v 2.56 h -9.82 V 11.68 L 12.57 11.68 z M 27.07 38.8 h -14.5 v -2.57 h 14.5 V 38.8 L 27.07 38.8 z M 46.8 38.81 H 30.02 v -2.58 H 46.8 V 38.81 L 46.8 38.81 z M 75.66 38.81 H 49.64 v -2.57 h 26.03 V 38.81 L 75.66 38.81 z M 37.25 28.07 H 88.4 v 2.53 H 37.25 V 28.07 L 37.25 28.07 z M 25.22 28.05 h 9.26 v 2.56 h -9.26 V 28.05 L 25.22 28.05 z M 12.57 28.05 h 9.82 v 2.56 h -9.82 V 28.05 L 12.57 28.05 z M 34.77 22.41 H 12.57 v -2.54 h 22.21 V 22.41 L 34.77 22.41 z M 46.8 22.42 h -9.26 v -2.56 h 9.26 V 22.42 L 46.8 22.42 z M 75.66 22.43 H 49.64 v -2.57 h 26.03 V 22.43 L 75.66 22.43 z M 37.25 11.68 h 22.21 v 2.54 H 37.25 V 11.68 L 37.25 11.68 z M 25.22 11.68 h 9.26 v 2.56 h -9.26 V 11.68 L 25.22 11.68 z M 91.2 62.08 l -9.1 -5.1 v -2.92 l 9.1 -5.1 v 3.36 l -6.34 3.16 l 6.34 3.26 V 62.08 L 91.2 62.08 z M 92.89 64.35 l 3.29 -17.91 h 1.91 l -3.31 17.91 H 92.89 L 92.89 64.35 z M 99.48 62.1 v -3.34 l 6.35 -3.2 l -6.35 -3.24 V 49 l 9.1 5.14 v 2.88 L 99.48 62.1 L 99.48 62.1 z M 46.29 88.27 h 30.3 c 0.08 5.24 2.24 9.93 8.09 13.63 H 38.2 C 42.88 98.51 46.31 94.39 46.29 88.27 L 46.29 88.27 L 46.29 88.27 z M 61.44 72.41 c 2.37 0 4.29 1.92 4.29 4.29 c 0 2.37 -1.92 4.29 -4.29 4.29 c -2.37 0 -4.29 -1.92 -4.29 -4.29 C 57.15 74.33 59.07 72.41 61.44 72.41 L 61.44 72.41 z M 10.05 6.29 h 102.79 c 1.63 0 2.95 1.33 2.95 2.95 v 57.52 c 0 1.62 -1.33 2.95 -2.95 2.95 H 10.05 c -1.62 0 -2.95 -1.33 -2.95 -2.95 V 9.24 C 7.09 7.62 8.42 6.29 10.05 6.29 L 10.05 6.29 L 10.05 6.29 z" stroke-linecap="round" />
+</g>
+</svg>
