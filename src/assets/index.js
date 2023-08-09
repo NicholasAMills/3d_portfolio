@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import live from "./live.png";
+import itchio from "./itchio.png";
+import metaversus from "./metaversus.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -35,7 +38,6 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import nekiristail from "./nekiristail.png";
-import itchio from "./itchio.png";
 import threejs_ai from "./threejs_ai.png";
 import dalle from "./dalle.png";
 
@@ -46,6 +48,7 @@ export {
   mobile,
   web,
   github,
+  live,
   menu,
   close,
   css,
@@ -77,4 +80,5 @@ export {
   itchio,
   threejs_ai,
   dalle,
+  metaversus,
 };

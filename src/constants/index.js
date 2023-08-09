@@ -14,14 +14,6 @@ import {
     mongodb,
     git,
     unrealengine,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     angular,
     pge,
@@ -33,6 +25,7 @@ import {
     github,
     threejs_ai,
     dalle,
+    metaversus,
   } from "../assets";
   
   export const navLinks = [
@@ -119,29 +112,23 @@ import {
       name: "Unreal Engine",
       icon: unrealengine,
     },
-    {
-      name: "Unity",
-      icon: unity,
-    },
+
     {
       name: "Redux Toolkit",
       icon: redux,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
     
   ];
   
   const experiences = [
     {
-      title: "Full Stack Developer",
+      title: "Software Engineer",
       company_name: "Tata Consultancy Services | Pacific Gas & Electric",
       icon: tcs,
       iconBg: "#383E56",
       date: "May 2021 - Current",
       points: [
+        "Full stack developer",
         "Work with PG&E account to develop and maintain web applications using React.js, Dojo, Python, AWS and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -196,14 +183,14 @@ import {
     {
       name: "DALL-E Clone",
       description:
-        "A social media inspired hub where users can create OpenAI prompts, generate an image and then share them with the community. Using MongoDB, and Cloudinary, shared images are stored online and retrieved dynamically. User is able to filter posts and hover over images to see what prompt resulted in that image, who created it along with a button to download the image",
+        "A social media inspired hub where users can create OpenAI prompts, generate an image and then share them with the community. Using MongoDB and Cloudinary, shared images are stored online and retrieved dynamically. Additional features include hovering over cards to get more details about the image along with a button to download it.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mongodb+cloudinary",
           color: "green-text-gradient",
         },
         {
@@ -213,29 +200,57 @@ import {
       ],
       image: dalle,
       icon_img: github,
+      is_live: true,
       source_code_link: "https://github.com/NicholasAMills/dall-e",
+      live_link: "http://nicholasamills-dalle-clone.site/"
     },
     {
-      name: "ThreeJS AI",
+      name: "Metaversus",
       description:
-        "React web application where users can design a shirt rendered in a 3D environment. User can change the color of the shirt using a color picker wheel, upload a photo and use OpenAI prompts to have an AI generate a design",
+        "Nextjs React web application demonstrating React components with animations using framer motion and tailwind css",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "threejs",
+          name: "nextjs",
           color: "green-text-gradient",
         },
         {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metaversus,
+      icon_img: github,
+      is_live: true,
+      source_code_link: "https://github.com/NicholasAMills/metaversus",
+      live_link: "https://nicholasamills-threejs.site/"
+    },
+    {
+      name: "Threejs",
+      description:
+        "Create a custom t-shirt and view it in 3D! Select the t-shirt's color by a color wheel or default options, then add a logo by uploading a photo or by generating an image through OpenAI!",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
           name: "openai",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
       image: threejs_ai,
       icon_img: github,
+      is_live: false,
       source_code_link: "https://github.com/NicholasAMills/project_threejs_ai",
+      live_link: null
     },
     {
       name: "Nekiri's Tail",
@@ -257,7 +272,9 @@ import {
       ],
       image: nekiristail,
       icon_img: itchio,
+      is_live: false,
       source_code_link: "https://catsinthebag.itch.io/nekiris-tail",
+      live_link: null
     },
   ];
   
