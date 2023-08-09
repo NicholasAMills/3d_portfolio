@@ -143,7 +143,7 @@ import {
       date: "June 2019 - July 2019",
       points: [
         "Internship",
-        "Instructed students the concepts of computer science and game design through multiple one to two week long courses to create and present a final project at the end of each course.",
+        "Instructed students on the concepts of computer science and game design through multiple one to two week long courses to create and present a final project at the end of each course.",
         "Topics included C++, C#, C++ in Unreal Engine 4, VR Design using Unity with the Oculus Go, Twitch livestreaming through Streamlabs OBS and Video editing using Adobe Premier.",
         "Collaborated with team members frequently to ensure student progress and safety.",
         "Participated in daily meetups providing and receiving constructive feedback to other members.",
