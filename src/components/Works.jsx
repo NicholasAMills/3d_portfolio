@@ -26,7 +26,7 @@ const ProjectCard = ({ index, name, description, tags, image, icon_img, is_live,
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="hidden sm:flex absolute inset-0  justify-end m-3 card-img_hover">
             {is_live && (
               <>
                 <div
@@ -55,7 +55,35 @@ const ProjectCard = ({ index, name, description, tags, image, icon_img, is_live,
           </div>
         </div>
 
-        <div className="mt-5">
+        <div className="sm:hidden absolute inset-x-0 flex justify-center mt-2 card-img_hover">
+            {is_live && (
+              <>
+                <div
+                  onClick={() => window.open(live_link, "_blank")}
+                  className="black-gradient w-1/4 h-1/4 rounded-full flex justify-center items-center cursor-pointer"
+                >
+                  <img 
+                    src={live}
+                    alt="source"
+                    className="w-1/2 h-1/2 object-contain"
+                  />
+                </div>
+                &nbsp;
+              </>
+            )}
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-1/4 h-1/4 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img 
+                src={icon_img}
+                alt="source"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+          </div>
+
+        <div className="sm:mt-5 mt-20">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
