@@ -27,6 +27,8 @@ import {
     dalle,
     metaversus,
   } from "../assets";
+
+  import RESUME from '../../public/Resume/NicholasMills_Resume.pdf'
   
   export const navLinks = [
     {
@@ -278,4 +280,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, RESUME };
