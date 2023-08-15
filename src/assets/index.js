@@ -9,6 +9,7 @@ import close from "./close.svg";
 import live from "./live.png";
 import itchio from "./itchio.png";
 import metaversus from "./metaversus.png";
+import graphqlcrud from "./GraphQLCRUD.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -81,4 +82,5 @@ export {
   threejs_ai,
   dalle,
   metaversus,
+  graphqlcrud
 };

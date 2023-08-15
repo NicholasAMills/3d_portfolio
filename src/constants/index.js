@@ -26,6 +26,7 @@ import {
     threejs_ai,
     dalle,
     metaversus,
+    graphqlcrud
   } from "../assets";
 
   import RESUME from '../../public/Resume/NicholasMills_Resume.pdf'
@@ -252,6 +253,30 @@ import {
       icon_img: github,
       is_live: false,
       source_code_link: "https://github.com/NicholasAMills/project_threejs_ai",
+      live_link: null
+    },
+    {
+      name: "React + GraphQL CRUD Demo",
+      description:
+        "A full-stack 'to-do' list using React, MongoDb, GraphQL and Apollo. Project demonstrates full CRUD functionality including filtering results and basic form validation.",
+      tags: [
+        {
+          name: "react+node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb+graphql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "apollo",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: graphqlcrud,
+      icon_img: github,
+      is_live: false,
+      source_code_link: "https://github.com/NicholasAMills/GraphQLCRUD",
       live_link: null
     },
     {
