@@ -258,7 +258,7 @@ import {
     {
       name: "React + GraphQL CRUD Demo",
       description:
-        "A full-stack 'to-do' list using React, MongoDb, GraphQL and Apollo. Project demonstrates full CRUD functionality including filtering results and basic form validation.",
+        "A proof of concept full-stack 'to-do' style list using React, Node, MongoDb, GraphQL and Apollo to learn how to work with GraphQL. Project demonstrates full CRUD functionality including filtering results and basic form validation.",
       tags: [
         {
           name: "react+node",
