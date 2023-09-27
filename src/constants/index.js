@@ -129,7 +129,7 @@ import {
       company_name: "Tata Consultancy Services | Pacific Gas & Electric",
       icon: tcs,
       iconBg: "#383E56",
-      date: "May 2021 - Current",
+      date: "May 2021 - September 2023",
       points: [
         "Full stack developer",
         "Work with PG&E account to develop and maintain web applications using React.js, Dojo, Python, AWS and other related technologies.",
