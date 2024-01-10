@@ -3,13 +3,15 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import python from "./python.png"
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import live from "./live.png";
 import itchio from "./itchio.png";
 import metaversus from "./metaversus.png";
-import graphqlcrud from "./GraphQLCRUD.png"
+import graphqlcrud from "./GraphQLCRUD.png";
+import youtubeurlgetter from "./youtubeurlgetter.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,7 +35,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import pge from "./company/pge.png";
 import idtech from "./company/idtech.png";
-import tcs from "./company/tcs.png"
+import tcs from "./company/tcs.png";
+import ge from "./company/ge.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -47,6 +50,7 @@ export {
   backend,
   creator,
   mobile,
+  python,
   web,
   github,
   live,
@@ -82,5 +86,7 @@ export {
   threejs_ai,
   dalle,
   metaversus,
-  graphqlcrud
+  graphqlcrud,
+  ge,
+  youtubeurlgetter
 };

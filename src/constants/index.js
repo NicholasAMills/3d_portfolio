@@ -1,5 +1,6 @@
 import {
     mobile,
+    python,
     backend,
     creator,
     web,
@@ -19,6 +20,7 @@ import {
     pge,
     idtech,
     tcs,
+    ge,
     unity,
     nekiristail,
     itchio,
@@ -26,7 +28,8 @@ import {
     threejs_ai,
     dalle,
     metaversus,
-    graphqlcrud
+    graphqlcrud,
+    youtubeurlgetter
   } from "../assets";
 
   import RESUME from '../../public/Resume/NicholasMills_Resume.pdf'
@@ -48,6 +51,10 @@ import {
   
   const services = [
     {
+      title: "Python Developer",
+      icon: python
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
@@ -58,10 +65,6 @@ import {
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Unreal Engine Developer",
-      icon: unrealengine
     },
     
   ];
@@ -124,6 +127,20 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Engineer",
+      company_name: "Resolvit | GE Aerospace",
+      icon: ge,
+      iconBg: "#ffffff",
+      date: "November 2023 - Current",
+      points: [
+        "Python, C++ Developer",
+        "Work with client GE Aerospace to help develop a Non-Destructive Evaluation tool using CT images and Avizo software",
+        "Collaborating with other developers, product manager along with the developers of the Avizo software to create a high-quality product",
+        "Development using multiple tools and languages working together while streamlining logic flow to ensure optimized results",
+        "Participating in daily standups, weekly code reviews along with providing and receiving constructive feedback to other developers.",
+      ],
+    },
     {
       title: "Software Engineer",
       company_name: "Tata Consultancy Services | Pacific Gas & Electric",
@@ -256,30 +273,6 @@ import {
       live_link: null
     },
     {
-      name: "React + GraphQL CRUD Demo",
-      description:
-        "A proof of concept full-stack 'to-do' style list using React, Node, MongoDb, GraphQL and Apollo to learn how to work with GraphQL. Project demonstrates full CRUD functionality including filtering results and basic form validation.",
-      tags: [
-        {
-          name: "react+node",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb+graphql",
-          color: "green-text-gradient",
-        },
-        {
-          name: "apollo",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: graphqlcrud,
-      icon_img: github,
-      is_live: false,
-      source_code_link: "https://github.com/NicholasAMills/GraphQLCRUD",
-      live_link: null
-    },
-    {
       name: "Nekiri's Tail",
       description:
         "Degree Capstone - Nekiri's Tail is a 3D puzzle/adventure game where the player controls both a cat and a human to solve puzzles to complete objectives. This game was developed using C++ and Blueprints within the Unreal 4 Engine. This is my capstone class and was completed in May 2020. The final game was presented at the UW Stout Game Expo on May 15, 2020. Specific roles include: particle effects using Niagara and Cascade, collaborating with teammates for gameplay design, developing possession mechanic of playable characters, UI, controller implementation including force feedback, and functional testing.",
@@ -301,6 +294,54 @@ import {
       icon_img: itchio,
       is_live: false,
       source_code_link: "https://catsinthebag.itch.io/nekiris-tail",
+      live_link: null
+    },
+    {
+      name: "YouTube URL Getter",
+      description:
+        "Retrieve all of a YouTube content creator's videos' title + url and save to a .csv file.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Google Cloud API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "YouTube",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: youtubeurlgetter,
+      icon_img: github,
+      is_live: false,
+      source_code_link: "https://github.com/NicholasAMills/YouTubeURLGetter",
+      live_link: null
+    },
+    {
+      name: "React + GraphQL CRUD Demo",
+      description:
+        "A proof of concept full-stack 'to-do' style list using React, Node, MongoDb, GraphQL and Apollo to learn how to work with GraphQL. Project demonstrates full CRUD functionality including filtering results and basic form validation.",
+      tags: [
+        {
+          name: "react+node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb+graphql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "apollo",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: graphqlcrud,
+      icon_img: github,
+      is_live: false,
+      source_code_link: "https://github.com/NicholasAMills/GraphQLCRUD",
       live_link: null
     },
   ];
