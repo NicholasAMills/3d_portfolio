@@ -137,8 +137,8 @@ import {
         "Python, C++ Developer",
         "Work with client GE Aerospace to help develop a Non-Destructive Evaluation tool using CT images and Avizo software",
         "Collaborating with other developers, product manager along with the developers of the Avizo software to create a high-quality product",
-        "Development using multiple tools and languages working together while streamlining logic flow to ensure optimized results",
-        "Participating in daily standups, weekly code reviews along with providing and receiving constructive feedback to other developers.",
+        "Development using multiple tools and languages working together while streamlining logic flow to ensure optimized performance",
+        "Participating in daily standups, weekly meetings and weekly code reviews providing and receiving constructive feedback to and from other developers.",
       ],
     },
     {
